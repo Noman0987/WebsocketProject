@@ -1,12 +1,15 @@
-require('./bootstrap');
-import Vue from 'vue';
+// Import necessary modules
+import { createApp } from 'vue';
 import DropdownComponent from './components/DropdownComponent.vue';
 import OptionDisplayComponent from './components/OptionDisplayComponent.vue';
-console.log('Vue version:', Vue.version);
-new Vue({
-    el: '#app',
+
+// Create the Vue app
+const app = createApp({
     components: {
         DropdownComponent,
         OptionDisplayComponent
     }
 });
+
+// Mount the app to the DOM
+app.mount('#app');

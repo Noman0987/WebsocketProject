@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Option Display</title>
-    <script src="{{ mix('js/app.js') }}" defer></script>
+    @vite('resources/js/app.js')
 </head>
 <body>
 <div id="app">

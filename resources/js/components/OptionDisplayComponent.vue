@@ -17,5 +17,5 @@ export default {
                 this.option = event.option;
             });
     }
-}
+};
 </script>
